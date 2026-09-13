@@ -1,0 +1,12 @@
+package erp.app.exceptions;
+
+import pt.tecnico.uilib.menus.CommandException;
+
+public class UnknownPurchaseKeyException extends CommandException {
+    @java.io.Serial
+    private static final long serialVersionUID = 202607021200L;
+
+    public UnknownPurchaseKeyException(int id) {
+        super(Message.unknownPurchase(id));
+    }
+}
