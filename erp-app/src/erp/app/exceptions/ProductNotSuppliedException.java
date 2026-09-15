@@ -2,7 +2,9 @@ package erp.app.exceptions;
 
 import pt.tecnico.uilib.menus.CommandException;
 
-/** The given company does not supply the given product. */
+/** 
+ * Represents an error indicating that the given company does not supply the given product.
+ */
 public class ProductNotSuppliedException extends CommandException {
 
     @java.io.Serial

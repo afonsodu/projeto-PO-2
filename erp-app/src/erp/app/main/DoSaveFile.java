@@ -5,7 +5,9 @@ import pt.tecnico.uilib.menus.Command;
 //FIXME maybe import classes
 
 /**
- * §4.1.1 Open and load files.
+ * Saves the current state of the application to a file using the serialization
+ * mechanism. If no file is currently associated with the application, asks the user for
+ * the name of the file to save to.
  */
 class DoSaveFile extends Command<ErpManager> {
 

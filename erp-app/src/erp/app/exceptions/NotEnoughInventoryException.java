@@ -2,7 +2,10 @@ package erp.app.exceptions;
 
 import pt.tecnico.uilib.menus.CommandException;
 
-/** A basket could not be checked out because a product ran out of stock. */
+/** 
+ * Represents an error indicating that a basket could not be checked out because a product
+ * ran out of stock.
+ */
 public class NotEnoughInventoryException extends CommandException {
 
     @java.io.Serial

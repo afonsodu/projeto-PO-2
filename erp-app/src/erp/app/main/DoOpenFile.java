@@ -6,7 +6,8 @@ import pt.tecnico.uilib.menus.CommandException;
 //FIXME maybe import classes
 
 /**
- * §4.1.1 Open and load files.
+ * Replaces the current state of the application with the state previously saved to a
+ * file. Asks for the file name.
  */
 class DoOpenFile extends Command<ErpManager> {
 
