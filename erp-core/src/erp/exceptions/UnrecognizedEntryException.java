@@ -1,6 +1,9 @@
 package erp.exceptions;
 
-/** Class encoding input file parsing issues. */
+/**
+ * Represents an error indicating that a given entry does not follow the textual
+ * format associated with the type of the domain entity it describes.
+ */
 public class UnrecognizedEntryException extends Exception {
 
     @java.io.Serial

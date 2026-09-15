@@ -1,5 +1,10 @@
 package erp.exceptions;
 
+/**
+ * Represents an error that has occurred during the parsing of the import file.
+ * This could be due to an IOException or a line of the import file using an invalid format
+ * (represented by UnrecognizedEntryException).
+ */
 public class ImportFileException extends Exception {
 
     @java.io.Serial

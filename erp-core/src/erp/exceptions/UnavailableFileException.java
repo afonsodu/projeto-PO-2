@@ -1,6 +1,9 @@
 package erp.exceptions;
 
-/** Class encoding file access failures. */
+/** 
+ * Represents an error that occurred while processing the file containing a previously serialized
+ * state of the application, either because the file does not exist or because deserialization failed.
+ **/
 public class UnavailableFileException extends Exception {
 
     @java.io.Serial
