@@ -6,7 +6,7 @@ import pt.tecnico.uilib.menus.CommandException;
 //FIXME maybe import classes
 
 /**
- * 4.5. Show all purchases (ordered by id).
+ * Shows every purchase (its summary line only), ordered by identifier.
  */
 class DoShowPurchases extends Command<ErpManager> {
 

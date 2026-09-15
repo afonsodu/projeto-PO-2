@@ -6,7 +6,7 @@ import pt.tecnico.uilib.menus.CommandException;
 //FIXME maybe import classes
 
 /**
- * 4.3. Show all products (ordered by id).
+ * Shows every product, ordered by identifier.
  */
 class DoShowProducts extends Command<ErpManager> {
 

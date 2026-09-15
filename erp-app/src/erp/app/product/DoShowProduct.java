@@ -6,7 +6,7 @@ import pt.tecnico.uilib.menus.CommandException;
 //FIXME maybe import classes
 
 /**
- * 4.3. Show a specific product.
+ * Shows one product, given its identifier.
  */
 class DoShowProduct extends Command<ErpManager> {
 

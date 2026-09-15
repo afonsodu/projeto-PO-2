@@ -6,7 +6,8 @@ import pt.tecnico.uilib.menus.CommandException;
 //FIXME maybe import classes
 
 /**
- * 4.2. Show the clients that have interacted with a company (ordered by id).
+ * Shows the clients that have bought from a company, ordered by identifier
+ * (their e-mail address).
  */
 class DoShowCompanyClients extends Command<ErpManager> {
 

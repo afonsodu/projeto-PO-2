@@ -6,7 +6,7 @@ import pt.tecnico.uilib.menus.CommandException;
 //FIXME maybe import classes
 
 /**
- * 4.4. Show all clients (ordered lexicographically by name).
+ * Shows every client, ordered by name and then by identifier.
  */
 class DoShowClients extends Command<ErpManager> {
 

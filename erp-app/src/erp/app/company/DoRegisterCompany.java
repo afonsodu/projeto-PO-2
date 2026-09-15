@@ -6,7 +6,7 @@ import pt.tecnico.uilib.menus.CommandException;
 //FIXME maybe import classes
 
 /**
- * 4.2. Register a new company.
+ * Registers a company; its identifier is assigned automatically.
  */
 class DoRegisterCompany extends Command<ErpManager> {
 

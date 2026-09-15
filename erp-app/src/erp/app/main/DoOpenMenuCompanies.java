@@ -5,7 +5,7 @@ import pt.tecnico.uilib.menus.Command;
 import pt.tecnico.uilib.menus.CommandException;
 
 /**
- * §4.1.4 Management menus.
+ * Opens the company management menu.
  */
 class DoOpenMenuCompanies extends Command<ErpManager> {
 

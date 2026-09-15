@@ -2,6 +2,7 @@ package erp.app.main;
 
 import erp.ErpManager;
 
+/** The main menu: file operations, the date, and the management menus. */
 public class Menu extends pt.tecnico.uilib.menus.Menu {
 
     public Menu(ErpManager receiver) {

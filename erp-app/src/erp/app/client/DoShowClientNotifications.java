@@ -6,7 +6,8 @@ import pt.tecnico.uilib.menus.CommandException;
 //FIXME maybe import classes
 
 /**
- * 4.4. Show the pending notifications of a client.
+ * Shows the notifications a client has received since they were last shown,
+ * in the order they were sent; showing them empties the client's inbox.
  */
 class DoShowClientNotifications extends Command<ErpManager> {
 

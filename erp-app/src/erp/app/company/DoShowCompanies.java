@@ -6,7 +6,7 @@ import pt.tecnico.uilib.menus.CommandException;
 //FIXME maybe import classes
 
 /**
- * 4.2. Show all companies (ordered by id).
+ * Shows every company, ordered by identifier.
  */
 class DoShowCompanies extends Command<ErpManager> {
 

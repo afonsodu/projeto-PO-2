@@ -6,7 +6,7 @@ import pt.tecnico.uilib.menus.CommandException;
 //FIXME maybe import classes
 
 /**
- * 4.2. Show a specific company.
+ * Shows one company, given its identifier.
  */
 class DoShowCompany extends Command<ErpManager> {
 

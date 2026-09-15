@@ -6,7 +6,8 @@ import pt.tecnico.uilib.menus.CommandException;
 //FIXME maybe import classes
 
 /**
- * 4.1.3. Advance the current date.
+ * Advances the current date by a number of days, raising the delivery
+ * notifications that the jump crosses. A non-positive number of days has no effect.
  */
 class DoAdvanceDate extends Command<ErpManager> {
 

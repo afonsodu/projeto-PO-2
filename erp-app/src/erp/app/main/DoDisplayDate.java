@@ -6,7 +6,7 @@ import pt.tecnico.uilib.menus.CommandException;
 //FIXME maybe import classes
 
 /**
- * 4.1.2. Display the current date.
+ * Shows the current date of the system.
  */
 class DoDisplayDate extends Command<ErpManager> {
 

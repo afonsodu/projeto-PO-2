@@ -5,7 +5,7 @@ import pt.tecnico.uilib.menus.Command;
 import pt.tecnico.uilib.menus.CommandException;
 
 /**
- * §4.1.4 Management menus.
+ * Opens the product management menu.
  */
 class DoOpenMenuProducts extends Command<ErpManager> {
 

@@ -6,7 +6,7 @@ import pt.tecnico.uilib.menus.CommandException;
 //FIXME maybe import classes
 
 /**
- * 4.4. Show a specific client.
+ * Shows one client, given its identifier (an e-mail address).
  */
 class DoShowClient extends Command<ErpManager> {
 
